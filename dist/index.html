@@ -13,13 +13,26 @@
 <header class="header__page">
 	<div class="header__inner">
 		<div class="nav-left">
-			<button class="btn__menu"></button>
-			<nav class="nav-bar">
-				<ul class="lang__list">
-					<li class="lang__item">
-						<a class="lang__item--btn" href="#">az</a>
+			<div class="menu__toggle">
+				<div class="header__burger"></div>
+			</div>
+			<nav class="header__menu">
+				<div class="btn__closed"></div>
+				<ul class="header__list">
+					<li class="header__link">
+						<a href="#">О нас</a>
+					</li>
+					<li class="header__link">
+						<a href="#">Продукты</a>
 					</li>
 				</ul>
+			</nav>
+			<!-- <button class="btn__menu"></button> -->
+			<ul class="lang__list">
+				<li class="lang__item">
+					<a class="lang__item--btn" href="#">az</a>
+				</li>
+			</ul>
 		</div>
 		<div class="nav-right">
 			<ul class="socials__list">
@@ -29,7 +42,7 @@
 					</a>
 				</li>
 				<li class="socials__item">
-					<a class="socials__item--linkedin" href="#">
+					<a class="socials__item--linkedin" href="https://www.facebook.com/profile.php?id=100000555053649">
 						<img src="./images/dist/facebook-white.svg" alt="">
 					</a>
 				</li>
@@ -39,7 +52,6 @@
 					</a>
 				</li>
 			</ul>
-			</nav>
 		</div>
 </header>
 
@@ -283,7 +295,9 @@
     </div>
 </footer>
 
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 <script src="js/app.min.js"></script>
 
 </body>
